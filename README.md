@@ -1,7 +1,7 @@
 API HeadHunter
 Установка:
 1.Склонировать репозиторий
-
+https://github.com/Keksjora/Course_work_2/pull/2
 
 2.Установка зависимостей:
 poetry install
@@ -12,6 +12,6 @@ poetry install
 4.Модули
 api_requests - класс для api запроса на hh
 vacancy - класс для работы с вакансиями
-file_saver - класс для работы с json объектом
+file_saver - класс для работы с json-объектом
 utils - дополнительные функции
 main - запускает программу
