@@ -10,12 +10,14 @@ class Vacancy:
         self.__experience = experience
 
     def __str__(self):
-        """ Строковое представление вакансии """
-        return (f"Vacancy(title={self.name}, url={self.url}, salary={self.__salary_from}, "
-                f"description={self.description}, experince={self.__experience}")
+        """Строковое представление вакансии"""
+        return (
+            f"Vacancy(title={self.name}, url={self.url}, salary={self.__salary_from}, "
+            f"description={self.description}, experince={self.__experience}"
+        )
 
     def __repr__(self):
-        """ Строковое представление вакансии для отладки"""
+        """Строковое представление вакансии для отладки"""
         return self.__str__()
 
     @property
@@ -71,4 +73,3 @@ class Vacancy:
         if type(self) is not type(other):
             raise TypeError("Невозможно сравить объекты разных классов")
         return self.__salary_from >= other.salary_from
-    
